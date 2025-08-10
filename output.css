@@ -726,6 +726,18 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.line-through {
+  text-decoration-line: line-through;
+}
+
 .decoration-white {
   text-decoration-color: #fff;
+}
+
+.decoration-red-500 {
+  text-decoration-color: #ef4444;
+}
+
+.decoration-2 {
+  text-decoration-thickness: 2px;
 }
