@@ -13,6 +13,12 @@ addBtn.addEventListener("click", () => {
     completed: false,
   };
   tasks.push(newtask);
+  saveTask();
   todoInput.value = ""; //input clear after the submit
   console.log(tasks);
 });
+
+// SAVE TO THE LOCAL STORAGE
+function saveTask() {
+  localStorage.setItem("tasks", JSON.stringify(tasks));
+}
